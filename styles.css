@@ -1,0 +1,286 @@
+body {
+  background-color: black !important;
+}
+.col-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fab {
+  color: white;
+  padding: 5px;
+}
+.fab:hover {
+  color: green;
+}
+.rotateright:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+.rotateleft:hover {
+  -webkit-transform: rotateZ(30deg);
+  -ms-transform: rotateZ(30deg);
+  transform: rotateZ(30deg);
+}
+.rotateall:hover {
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+.navbar {
+  background: linear-gradient(270deg, #792ff9, #ff00fa, #0961f9, #25fc42);
+  background-size: 800% 800%;
+  -webkit-animation: colors 15s ease infinite;
+  -moz-animation: colors 15s ease infinite;
+  animation: colors 15s ease infinite;
+  padding-bottom: 4rem;
+}
+.navbar-brand {
+  color: white !important;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+}
+footer::before {
+  content: "";
+  position: absolute;
+  height: 10% !important;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  margin-top: -25px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000);
+}
+footer {
+  background: linear-gradient(270deg, #792ff9, #ff00fa, #0961f9, #25fc42);
+  background-size: 800% 800%;
+  -webkit-animation: colors 15s ease infinite;
+  -moz-animation: colors 15s ease infinite;
+  animation: colors 15s ease infinite;
+}
+.pt-4 {
+  padding-top: 2.5rem !important;
+}
+.intro {
+  padding: 40px 15px;
+  text-align: center;
+}
+.row {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  max-width: 1200px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 250px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding-left: 5px;
+}
+.contactHead {
+  font-family: 'Satisfy', cursive;
+  color: white;
+  font-size: 65px;
+}
+.contactText {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  padding: 5px;
+}
+.carousel {
+  width: 100%;
+  height: 400px;
+}
+.carousel-inner {
+  background: linear-gradient(270deg, #792ff9, #ff00fa, #0961f9, #25fc42);
+  background-size: 800% 800%;
+  -webkit-animation: colors 15s ease infinite;
+  -moz-animation: colors 15s ease infinite;
+  animation: colors 15s ease infinite;
+}
+.caroCol {
+  margin-top: 10px;
+}
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 5%;
+}
+#img1 {
+  width: 100%;
+  height: 96%;
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1300px;
+}
+.map-container {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+}
+#info {
+  display: inline-block;
+  width: 300px;
+  float: left;
+  border: 1px solid black;
+}
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  height: 18px !important;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+}
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  height: 18px !important;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000);
+}
+.carousel-control {
+  top: 369px;
+}
+.item {
+  height: 420px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.explanation {
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  margin-right: 10%;
+}
+.gradient {
+  background: linear-gradient(270deg, #792ff9, #ff00fa, #0961f9, #25fc42);
+  background-size: 800% 800%;
+  -webkit-animation: colors 15s ease infinite;
+  -moz-animation: colors 15s ease infinite;
+  animation: colors 15s ease infinite;
+}
+@-webkit-keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.toblack {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+}
+.toblackdown {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), #000000);
+}
+.Fbutton {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  background: black;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid white;
+  border-style: solid;
+  padding-top: 10px;
+}
+.Fhover {
+  position: relative;
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  left: -250px;
+  transition: 0.3s;
+  transform: rotate(20deg);
+  opacity: 0.8;
+  background: linear-gradient(270deg, #792ff9, #ff00fa, #0961f9, #25fc42);
+  background-size: 800% 800%;
+  -webkit-animation: colors 15s ease infinite;
+  -moz-animation: colors 15s ease infinite;
+  animation: colors 15s ease infinite;
+}
+.Fclic {
+  color: white;
+  transition: 0.3s;
+}
+.Fbutton:hover .Fhover {
+  left: -145px;
+}
+.Fbutton:hover .Fclic {
+  margin-left: 80px;
+}
+.Fsure {
+  margin-top: 30px;
+  margin-right: -135px;
+  color: white;
+  transform: rotate(-20deg);
+}
+.Fbutton:active {
+  box-shadow: 2px 2px 1px #888888;
+}
+@media only screen and (max-width: 568px) {
+  .explanation {
+    margin-right: 0px;
+  }
+}
